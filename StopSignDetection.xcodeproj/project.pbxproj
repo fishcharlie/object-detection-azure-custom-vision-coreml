@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5C8E1732741BCDF00BA22BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E1722741BCDF00BA22BC /* AppDelegate.swift */; };
+		B5C8E1752741BCDF00BA22BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E1742741BCDF00BA22BC /* SceneDelegate.swift */; };
+		B5C8E1772741BCDF00BA22BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E1762741BCDF00BA22BC /* ViewController.swift */; };
+		B5C8E17A2741BCDF00BA22BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C8E1782741BCDF00BA22BC /* Main.storyboard */; };
+		B5C8E17C2741BCDF00BA22BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C8E17B2741BCDF00BA22BC /* Assets.xcassets */; };
+		B5C8E17F2741BCDF00BA22BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C8E17D2741BCDF00BA22BC /* LaunchScreen.storyboard */; };
+		B5C8E1892741BD6700BA22BC /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E1882741BD6700BA22BC /* Classifier.swift */; };
+		B5C8E1972741CD4900BA22BC /* StopSignDetectionModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E1962741CD4900BA22BC /* StopSignDetectionModel.mlmodel */; };
+		B5C8E1992741DEF800BA22BC /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E1982741DEF800BA22BC /* BoundingBox.swift */; };
+		B5C8E19B2741EFCD00BA22BC /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8E19A2741EFCD00BA22BC /* UIImageView+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5C8E16F2741BCDF00BA22BC /* StopSignDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopSignDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C8E1722741BCDF00BA22BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5C8E1742741BCDF00BA22BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5C8E1762741BCDF00BA22BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5C8E1792741BCDF00BA22BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5C8E17B2741BCDF00BA22BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5C8E17E2741BCDF00BA22BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5C8E1802741BCDF00BA22BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C8E1882741BD6700BA22BC /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		B5C8E1962741CD4900BA22BC /* StopSignDetectionModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = StopSignDetectionModel.mlmodel; sourceTree = "<group>"; };
+		B5C8E1982741DEF800BA22BC /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		B5C8E19A2741EFCD00BA22BC /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5C8E16C2741BCDF00BA22BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5C8E1662741BCDF00BA22BC = {
+			isa = PBXGroup;
+			children = (
+				B5C8E1712741BCDF00BA22BC /* StopSignDetection */,
+				B5C8E1702741BCDF00BA22BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5C8E1702741BCDF00BA22BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5C8E16F2741BCDF00BA22BC /* StopSignDetection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5C8E1712741BCDF00BA22BC /* StopSignDetection */ = {
+			isa = PBXGroup;
+			children = (
+				B5C8E1962741CD4900BA22BC /* StopSignDetectionModel.mlmodel */,
+				B5C8E1722741BCDF00BA22BC /* AppDelegate.swift */,
+				B5C8E1742741BCDF00BA22BC /* SceneDelegate.swift */,
+				B5C8E1762741BCDF00BA22BC /* ViewController.swift */,
+				B5C8E1882741BD6700BA22BC /* Classifier.swift */,
+				B5C8E1982741DEF800BA22BC /* BoundingBox.swift */,
+				B5C8E19A2741EFCD00BA22BC /* UIImageView+Extensions.swift */,
+				B5C8E1782741BCDF00BA22BC /* Main.storyboard */,
+				B5C8E17B2741BCDF00BA22BC /* Assets.xcassets */,
+				B5C8E17D2741BCDF00BA22BC /* LaunchScreen.storyboard */,
+				B5C8E1802741BCDF00BA22BC /* Info.plist */,
+			);
+			path = StopSignDetection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5C8E16E2741BCDF00BA22BC /* StopSignDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5C8E1832741BCDF00BA22BC /* Build configuration list for PBXNativeTarget "StopSignDetection" */;
+			buildPhases = (
+				B5C8E16B2741BCDF00BA22BC /* Sources */,
+				B5C8E16C2741BCDF00BA22BC /* Frameworks */,
+				B5C8E16D2741BCDF00BA22BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StopSignDetection;
+			productName = StopSignDetection;
+			productReference = B5C8E16F2741BCDF00BA22BC /* StopSignDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5C8E1672741BCDF00BA22BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B5C8E16E2741BCDF00BA22BC = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = B5C8E16A2741BCDF00BA22BC /* Build configuration list for PBXProject "StopSignDetection" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5C8E1662741BCDF00BA22BC;
+			productRefGroup = B5C8E1702741BCDF00BA22BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5C8E16E2741BCDF00BA22BC /* StopSignDetection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5C8E16D2741BCDF00BA22BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C8E17F2741BCDF00BA22BC /* LaunchScreen.storyboard in Resources */,
+				B5C8E17C2741BCDF00BA22BC /* Assets.xcassets in Resources */,
+				B5C8E17A2741BCDF00BA22BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5C8E16B2741BCDF00BA22BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C8E1972741CD4900BA22BC /* StopSignDetectionModel.mlmodel in Sources */,
+				B5C8E19B2741EFCD00BA22BC /* UIImageView+Extensions.swift in Sources */,
+				B5C8E1892741BD6700BA22BC /* Classifier.swift in Sources */,
+				B5C8E1772741BCDF00BA22BC /* ViewController.swift in Sources */,
+				B5C8E1992741DEF800BA22BC /* BoundingBox.swift in Sources */,
+				B5C8E1732741BCDF00BA22BC /* AppDelegate.swift in Sources */,
+				B5C8E1752741BCDF00BA22BC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5C8E1782741BCDF00BA22BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C8E1792741BCDF00BA22BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5C8E17D2741BCDF00BA22BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5C8E17E2741BCDF00BA22BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5C8E1812741BCDF00BA22BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5C8E1822741BCDF00BA22BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5C8E1842741BCDF00BA22BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65C6Q42DKC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StopSignDetection/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This application uses your camera to detect objects using machine learning.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CharlieFish.StopSignDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5C8E1852741BCDF00BA22BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65C6Q42DKC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StopSignDetection/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This application uses your camera to detect objects using machine learning.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CharlieFish.StopSignDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5C8E16A2741BCDF00BA22BC /* Build configuration list for PBXProject "StopSignDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C8E1812741BCDF00BA22BC /* Debug */,
+				B5C8E1822741BCDF00BA22BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C8E1832741BCDF00BA22BC /* Build configuration list for PBXNativeTarget "StopSignDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5C8E1842741BCDF00BA22BC /* Debug */,
+				B5C8E1852741BCDF00BA22BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5C8E1672741BCDF00BA22BC /* Project object */;
+}
